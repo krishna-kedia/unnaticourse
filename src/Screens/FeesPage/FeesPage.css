@@ -1,0 +1,111 @@
+.header{
+    height: 10vh;
+    width: 100vw;
+    background-color: #0000008c;
+}
+
+.feespage{
+    display: flex;  
+    flex-direction: row;
+}
+
+
+
+.fees{
+
+  display: inline-block;
+  border: 1px solid #eee;
+   box-shadow: 0px 3px 3px #D3D3D3, 
+        -3px 5px 5px #D3D3D3, 3px 3px 5px #D3D3D3;
+  width: 30vw;
+  height: 60vh;
+  margin-left: 4vw;
+  overflow: visible;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex1{
+  display: flex;
+  flex-direction: column;
+}
+
+.fee{
+  margin-top: 10vh;
+  margin-left:4vw;
+  font-size: 4vh;
+  color:#888888;
+  font-family: Montserrat;
+  font-weight: 550;
+  font-size: 1.7rem;
+}
+
+.fees1{
+
+  display: inline-block;
+  border: 1px solid #eee;
+   box-shadow: 0px 3px 3px #D3D3D3, 
+        -3px 5px 5px #D3D3D3, 3px 3px 5px #D3D3D3;
+  width: 30vw;
+  height: 60vh;
+  margin-left: 4vw;
+  overflow: visible;
+}
+.subcol{
+   display: inline-block;
+  border: 1px solid #D3D3D3;
+   box-shadow:  5px #D3D3D3;
+  width: 20vw;
+  height: 60vh;
+  text-align: center;
+  color: #7b7b7b;
+  overflow: visible;
+}
+
+.subcol2{
+   display: inline-block;
+  border: 1px solid #D3D3D3;
+   box-shadow:  5px #D3D3D3;
+  width: 25vw;
+  height: 60vh;
+  text-align: center;
+  color: #7b7b7b;
+}
+
+.due{ margin-left:5vh;
+    font-size: 5vh;
+  margin-top:2vh;
+  font-size: 1.5rem;
+  color:#888888;
+  }
+.due1{ 
+  margin-left:5vh;
+    font-size: 4vh;
+    
+  margin-top:4vh;
+  color:red;
+  font-size: 1.3rem;
+  }
+.due2{ margin-left: 5vh;
+    font-size: 4vh;
+  margin-top:4vh;
+  color:green;
+  font-size: 1.3rem;
+  }
+.due3{ margin-left:5vh;
+    font-size: 5vh;
+  margin-top:10vh;
+  color:#888888;
+  font-size: 1.5rem;
+  }
+
+  .payment-btn{
+    margin: 5vh 8vw;
+    padding: 1vh 1vw;
+    color: whitesmoke;
+    background-color: #404040;
+
+  }
+

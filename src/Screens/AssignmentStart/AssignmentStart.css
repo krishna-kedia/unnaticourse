@@ -1,0 +1,38 @@
+.assignment-start-page{
+    display: flex;
+    flex-direction: row;
+}
+
+.assignment-div{
+    padding: 5vh 5vw;
+}
+
+.assignment-heading{
+    font-size: 1.7rem;
+    color: #7b7b7b;
+    border-bottom: 2px solid black;
+    width: 11vw;
+}
+
+.question-paper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: scroll;
+    height: 60vh;
+    margin-top: 5vh;
+}
+
+.submit-button{
+    padding: 1vh 30vw;
+    background-color: white;
+}
+
+.btn{
+    padding: 1vh 1vw;
+    border-radius: 1vh;
+}
+
+Link{
+    text-decoration: none;
+}

@@ -1,0 +1,21 @@
+.test-heading{
+    width: 4vw;
+}
+
+.score{
+    padding: 2vh 4vw;
+    border-radius: 4vh;
+    background-color: #003584;
+    margin: 15vh 5vw;
+    color: whitesmoke;
+}
+
+.next-topic{
+    padding: 2vh 4vw;
+    border-radius: 4vh;
+    background-color: #FFBA19;
+    margin: 10vh 5vw;
+    color: whitesmoke;
+    width: 15vw;
+    text-align: center;
+}

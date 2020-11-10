@@ -1,0 +1,163 @@
+.second-nav{
+    height: auto;
+    width: 20vw;
+    background-color: #4F4F4F;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info{
+    align-self: center;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5vh;
+    margin: 7vh 1vw 0 1vw;
+    width: 18vw;
+    height: 8vh;
+}
+
+.profile-icon{
+    height: 6.5vh;
+    padding: 0.75vh 1vw;
+}
+
+.user-info-name{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0.2vh 0 0 0;
+}
+
+.user-info-name p{
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+.user-info-name span{
+    font-size: 1vw;
+    margin: 0;
+}
+
+.course-dashboard{
+    display: flex;
+    flex-direction: column;
+    margin: 16vh 0 0 0;
+}
+
+.course-dashboard-text{
+    align-self: center;
+    color: white;
+    font-size: 1.1em;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+}
+
+.dashboard-icon{
+    height: 4vh;
+    margin: 0 0 0 1vw;
+    fill: white;
+}
+
+.course-information{
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 0 0 0;
+    width: auto;
+    align-self: center;
+}
+
+.course-info-topic{
+    align-self: center;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    width: 15vw;
+    justify-content: space-around;
+}
+
+.course-info-topic-name{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+
+.course-info-topic-icon{
+    height: 4vh;
+}
+
+.course-topic{
+    margin: 8vh 0 0 0;
+    display: flex;
+    flex-direction: row;
+    width: 13vw;
+    justify-content: space-around;
+    justify-self: center;
+    align-self: center;
+}
+
+.course-topic-name{
+    color: white;
+    align-self: center;
+}
+
+.course-topic-icon{
+    height: 4.5vh;
+}
+
+.assignment-topic{
+    margin: 1vh 0 0 0;
+    display: flex;
+    flex-direction: row;
+    width: 13vw;
+    justify-content: space-around;
+    justify-self: center;
+    align-self: center;
+}
+
+.assignment-topic-name{
+    color: white;
+    align-self: center;
+}
+
+.assignment-topic-icon{
+    height: 4.5vh;
+}
+
+.test-topic{
+    margin: 1vh 0 0 0;
+    display: flex;
+    flex-direction: row;
+    width: 13vw;
+    justify-content: space-around;
+    justify-self: center;
+    align-self: center;
+}
+
+.test-topic-name{
+    color: white;
+    align-self: center;
+}
+
+.test-topic-icon{
+    height: 4.5vh;
+}
+
+.back{
+    display: flex;
+    margin: 9vh 0 0 3vw;
+    width: 15vw;
+    flex-direction: row;
+    justify-self: center;
+    align-self: center;
+    color: white;
+    justify-content: space-around;
+}
+
+.back-text{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 2.2vh 1vw;
+    font-size: small;
+}

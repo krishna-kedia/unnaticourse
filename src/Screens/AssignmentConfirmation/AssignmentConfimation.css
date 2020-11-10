@@ -1,0 +1,59 @@
+.assignment-score-page{
+    display: flex;
+    flex-direction: row;
+}
+
+.assignment-name{
+    margin: 10vh 0 0 8vw;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+    color: #636363;
+    border-bottom: 1px solid black;
+}
+
+.assignment-title{
+    margin: 8vh 0 0 8vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.assignment-duration{
+    margin: 3vh 0 0 8vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.assignment-highest-score{
+    margin: 3vh 0 0 8vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.assignment-highest-score span{
+    color: #1C00E1;
+}
+
+.assignment-score{
+    margin: 20vh 0 0 9vw;
+    font-weight: medium;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+    color: #636363;
+}
+
+.assignment-score span{
+    color: #1C00E1;
+}
+
+.attempts{
+    margin: 15vh 0 0 9vw;
+    height: auto;
+    border: 1px solid black;
+    width: auto;
+    border-radius: 10vh;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: #636363;
+    padding: 1vh 1vw;
+}

@@ -1,0 +1,80 @@
+.body{
+    display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.side-nav{
+    width: 15vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px thin black;
+    background-color: #f5f5f5;
+}
+
+.course{
+    text-align: center;
+    font-size: x-large;
+    border-bottom: 1px solid black;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1vh 0;
+}
+
+.circle1{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.video-box h2{
+    text-align: center;
+}
+
+.video{
+    width: 75vw;
+    height: 90vh;
+    margin: 2vh 4vw;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.video-bar-outer{
+    width: 70vw;
+    height: 1.5vh;
+    border: 1px solid black;
+    align-content: center;
+    margin-bottom: 3vh;
+}
+
+.video-bar-inner{
+    width: 30vw;
+    height: 1.5vh;
+    background-color: #b85a5a;
+    margin-bottom: 3vh;
+}
+
+.note-box  h2{
+    text-align: center;
+}
+.notes{
+    height: 75vh;
+    width: 80vw;
+    border: 1px solid black;
+    margin: 0 4vw 10vh 10vw;
+}
